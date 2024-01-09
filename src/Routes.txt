@@ -1,0 +1,17 @@
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+
+function ProjectRoutes() {
+  return (
+    <main>
+      <Routes>
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Cardbooks" element={<Cardbooks />} />
+        <Route path="/Books" element={<Books />} />
+        <Route path="/Hero" element={<Hero />} />
+      </Routes>
+    </main>
+  );
+}
+
+export default ProjectRoutes;
